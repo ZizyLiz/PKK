@@ -4,11 +4,14 @@ body{
     justify-content: center;
 }
 .box{
-    display: flex;
+    margin-top: 200px;
     width: 600px;
-    height: 200px;
+    height: fit-content;
     background-color: lightblue;
-    animation: mymove 5s infinite;   
     align-items: start;
     padding: 10px;
+}
+h1{
+    width: 100%;
+    text-align: center;
 }
